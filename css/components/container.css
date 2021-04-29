@@ -1,0 +1,36 @@
+.container {
+width: 900px;
+margin: 2 auto;
+}
+
+@media (min-width: 300px) {
+.campus-container {
+grid-template-columns: 1fr;
+}
+
+.container {
+width: 400px;
+}
+}
+
+
+@media (min-width: 700px) {
+.campus-container {
+grid-template-columns: 1fr 1fr;
+}
+
+.container {
+width: 600px;
+}
+}
+
+
+@media (min-width: 1000px) {
+.campus-container {
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+width: 900px;
+}
+}
